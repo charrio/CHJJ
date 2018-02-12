@@ -1,0 +1,82 @@
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #16b6d9;
+  z-index: 9000;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Header */
+.top-header {
+  text-align: center;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #16b6d9;
+    overflow: hidden;
+}
+
+/* Add an active cl ass to highlight the current page */
+.active {
+    background-color: #000000;
+    color: #16b6d9;
+    font-weight: bold;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ffffff;
+    color: #16b6d9;
+    font-weight: bold;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+/* accentuate text within page */
+.accentuate {
+  font-weight: bold;
+  font-size: 8.25rem; !important
+  color: red;
+}

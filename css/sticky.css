@@ -1,0 +1,150 @@
+.body {
+  margin: 0;
+  font-size: 2vmin;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+.navbar {
+
+  background-color: #f0cc32;
+  z-index: 9000;
+
+}
+
+.social-bar {
+  text-align: center;
+}
+
+
+
+@media (min-width: 768px) {
+    .sticky{
+      bottom:91.5%;
+    }
+
+    .navbar a.active {
+      background-color: #ffffff;
+      color: #f0cc32;
+      font-weight: bold;
+    }
+
+    .navbar a:hover {
+        background-color: #ffffff;
+        color: #f0cc32;
+        font-weight: bold;
+    }
+}
+
+
+
+.navbar a{
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 2.5vmin;
+  font-weight: bold;
+}
+
+
+
+
+
+
+.navbar-brand {
+  padding: 5px;
+}
+
+.salsaBlue {
+  color: #f0cc32;
+  font-weight: bold;
+  font-size:2.6vmin !important ;
+}
+
+
+.signature {
+
+}
+.signature ul {
+  list-style-type: none;
+
+}
+
+.signature li{
+  float: left;
+  display: block;
+  text-align: justify;
+  text-decoration: none;
+  font-size: 2.4vmin;
+  font-weight: bold;
+  min-width: 100%;
+}
+
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  visibility: visible ;
+
+}
+
+.hide {
+	visibility: hidden;
+  height: 60px;
+}
+
+.sticky + .heading {
+  padding-top: 60px;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+
+
+/* accentuate text within page */
+.accentuate {
+  font-weight: bold;
+  font-size: 3.5vmin;
+}
+
+.blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+.blockquote:before {
+  font: Georgia;
+  color: #808080;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0;
+  vertical-align: -.41em;
+  padding: 0 .1em 0 .1em;
+  }
+
+.quote:after {
+  font: Georgia;
+  color: #808080;
+  content: close-quote;
+  font-size: 4em;
+  line-height: 0.3em;
+  margin-right: 0.25em;
+  vertical-align: -0.57em;
+  padding: 0 0 0 .1em
+}
+.blockquote p {
+  display: inline;
+}
