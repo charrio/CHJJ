@@ -86,7 +86,7 @@ h2 {
 .bg1 {
 	/* The image used */
     background-image: url("assets/sanJuan.jpg");
-    min-height: 400px;
+    min-height: 100%;
 }
 
 .bg2 {
